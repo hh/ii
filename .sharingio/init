@@ -1,0 +1,25 @@
+#!/bin/bash
+set -x
+set -e
+export TMATE_SOCKET="${TMATE_SOCKET:-/tmp/ii.default.target.iisocket}"
+export SCRIPT_PATH="$(dirname $(realpath $0))"
+
+function wait-for-window {
+    WINDOW="${1:-}"
+    until tmate -S "${TMATE_SOCKET}" list-windows | grep "${WINDOW:-}"; do
+        sleep 1s
+    done
+    sleep 1s
+}
+
+if [ -f /var/run/secrets/kubernetes.io/serviceaccount/namespace ]; then
+  /usr/local/bin/tmate-wait-for-socket.sh
+  WINDOW=http-server
+  tmate -F -v -S $TMATE_SOCKET new-window -d -c "$PWD" -n $WINDOW bash
+  (
+    wait-for-window $WINDOW
+    tmate -S $TMATE_SOCKET send-keys -t $WINDOW "export SHARINGIO_PAIR_EXPOSER_HOSTNAME=napa APP_METRICS_ENABLED=false" Enter
+    tmate -S $TMATE_SOCKET send-keys -t $WINDOW 'echo "Talk available at: http://$SHARINGIO_PAIR_EXPOSER_HOSTNAME.${SHARINGIO_PAIR_BASE_DNS_NAME:-127.0.0.1.sslip.io:8080}"' Enter
+    tmate -S $TMATE_SOCKET send-keys -t $WINDOW "go-http-server" Enter
+  ) # &
+fi

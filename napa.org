@@ -1,0 +1,383 @@
+#+TITLE: Strategic Initiatives
+#+AUTHOR: Hippie Hacker
+#+EMAIL: hh@cncf.io
+#+BEGIN_NOTES
+We will cover:
+- Conformance Programs
+- Contributor Infrastructure
+- Collaborative Tooling
+#+END_NOTES
+* You are here
+  :PROPERTIES:
+  :reveal_background: img/as17-148-22727.jpg
+  :reveal_background_size: 100p
+  :END:
+#+BEGIN_NOTES
+I'm so glad you are here!
+We are all here, together.
+#+END_NOTES
+* Why are we here?
+  :PROPERTIES:
+  :reveal_background: img/as17-148-22727.jpg
+  :reveal_background_size: 100p
+  :END:
+#+BEGIN_NOTES
+I'm Hippie Hacker, and together
+and I'd like all of us win, not just some of us.
+#+END_NOTES
+* Production Workloads Worldwide
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_lights_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+- Ensuring "Generally Available" is just that
+- Conformance Testing required
+#+BEGIN_NOTES
+We want our workloads to run globally
+#+END_NOTES
+* Building Sustainable Ecosystems
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_lights_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+- vendor-neutral home for us all
+#+BEGIN_NOTES
+But we'll need sustainable ecosystems of inovations across the globe to do so
+#+END_NOTES
+* Fostering Communites
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_lights_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+- All Nations / All Neighborhoods
+- Our Customs / Our Protocols
+- Our Land / Our Clouds
+#+BEGIN_NOTES
+This means all communities in all nations.
+#+END_NOTES
+
+* .
+  :PROPERTIES:
+  :reveal_background: img/certified-kubernetes-1.17-color.png
+  :reveal_background_size: 250px
+  :END:
+#+BEGIN_NOTES
+We have a standard defined by tests that must pass on every Certified Cloud Provider
+#+END_NOTES
+* APISNOOP.CNCF.IO
+  :PROPERTIES:
+  :reveal_background: img/apisnoop-icon-color.png
+  :reveal_background_size: 350px
+  :END:
+#+BEGIN_NOTES
+APISnoop is tooling to allow us to understand exactly what it is we are testing.
+Understanding the coverage directly.
+#+END_NOTES
+* 1960
+  :PROPERTIES:
+  :reveal_background: img/tiros_first_172.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+The first public pictures of clouds
+#+END_NOTES
+  #+REVEAL: split
+  #+REVEAL: split
+First TV Broadcast from Space
+  #+REVEAL: split
+TIROS-1
+* 1972
+  :PROPERTIES:
+  :reveal_background: img/as17-148-22727.jpg
+  :reveal_background_size: 600p
+  :END:
+#+BEGIN_NOTES
+The best known selfie
+#+END_NOTES
+  #+REVEAL: split
+  #+REVEAL: split
+Blue Marble
+  #+REVEAL: split
+Apollo 17
+* 1990
+  :PROPERTIES:
+  :reveal_background: img/PaleBlueDot.jpg
+  :reveal_background_size: 400px
+  :END:
+#+BEGIN_NOTES
+30 degrees above the ecliptic
+#+END_NOTES
+  # {{{revealimg("./pale_blue_dot.meta","1990: From Voyager 1","120vh")}}}
+  #+REVEAL: split
+  #+REVEAL: split
+Pale Blue Dot
+  #+REVEAL: split
+Voyager 1
+* 2001
+  :PROPERTIES:
+  :reveal_background: img/globe_east_2048.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+We start getting more sattelites
+#+END_NOTES
+** Many Satellites
+  :PROPERTIES:
+  :reveal_background: img/globe_west_2048.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+And more
+#+END_NOTES
+** Combined Images
+  :PROPERTIES:
+  :reveal_background: img/marble_2002_australia_2048.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+And many more
+#+END_NOTES
+
+* 2002
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_cloud_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+We start getting a clear picture of cloud coverage
+#+END_NOTES
+** - Clouds
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+And what the clouds are there for
+#+END_NOTES
+** - Ice
+  :PROPERTIES:
+  :reveal_background: img/land_shallow_topo_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+which eventually leads us to
+#+END_NOTES
+** + People
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_lights_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+The people
+#+END_NOTES
+
+* 1.10
+  :PROPERTIES:
+  :reveal_background: img/tiros_first_172.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+Thanks Ken!
+#+END_NOTES
+  #+REVEAL: split
+First software written parsing e2e.log files
+  #+REVEAL: split
+Ken Omichi
+
+* 1.11
+  :PROPERTIES:
+  :reveal_background: img/as17-148-22727.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+Thanks Rohan!
+#+END_NOTES
+  #+REVEAL: split
+First parsing of audit.logs
+Static Website
+  #+REVEAL: split
+Rohan Fletcher
+* 1.12
+  :PROPERTIES:
+  :reveal_background: img/PaleBlueDot.jpg
+  :reveal_background_size: 400px
+  :END:
+#+BEGIN_NOTES
+Thanks Zhonghu!
+#+END_NOTES
+  #+REVEAL: split
+First glimpse of actual test coverage
+  #+REVEAL: split
+User-Agent support added to:
+- apiserver/auditlogs
+- e2e.framework
+  #+REVEAL: split
+Zhonghu Xu
+* 1.13
+  :PROPERTIES:
+  :reveal_background: img/marble_2002_australia_2048.jpg
+  :reveal_background_size: 600px
+  :END:
+#+BEGIN_NOTES
+Thanks Zhonghu!
+#+END_NOTES
+  #+REVEAL: split
+First glimpse of change of coverage over time
+  #+REVEAL: split
+apisnoop.cncf.ci setup to process CI audit-logs
+  #+REVEAL: split
+Devan Carpenter
+
+* 1.14
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_cloud_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+Thanks Zach!
+This allowed us to start asking questions about our coverage
+#+END_NOTES
+  #+REVEAL: split
+Dynamic queries to comprehend the full API surface/coverage area
+  #+REVEAL: split
+JSON -> SQL
+  #+REVEAL: split
+Zach Mandeville
+
+* 1.15
+  :PROPERTIES:
+  :reveal_background: img/land_shallow_topo_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+Thanks Aaron!
+Now we had a 'you have to be this high to ride'
+#+END_NOTES
+#+REVEAL: split
+Policy requiring Conformance Test for GA features
+#+REVEAL: split
+Posting apisnoop links to PRs
+#+REVEAL: split
+Spiffxp. Thanks for making us be honest about testing.
+
+* 1.16
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_lights_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+Thanks Jordan!
+Ensuring we see every event generated by any application.
+#+END_NOTES
+#+REVEAL: split
+Defining new metrics of API surface area and coverage
+#+REVEAL: split
+Jordan Liggitt
+* 1.17
+  :PROPERTIES:
+  :reveal_background: img/land_ocean_ice_lights_2048.jpg
+  :reveal_background_size: 990px
+  :END:
+#+BEGIN_NOTES
+This is where you come in!
+What parts of Kubernetes do your applications depend on?
+#+END_NOTES
+#+REVEAL: split
+We need to test the infrastructure we all depend on.
+#+REVEAL: split
+This is where you com in!
+* K8s Conformance / APISnoop
+#+BEGIN_NOTES
+This is where to find us.
+#+END_NOTES
+- https://github.com/cncf/k8s-conformance
+- https://apisnoop.cncf.io
+- https://github.com/cncf/apisnoop
+Slack #k8s-conformance
+* 2004
+  :PROPERTIES:
+  :reveal_background: img/alps_comparison.jpg
+  :reveal_background_size: 600px
+  :END:
+
+* LOCAL VARS :noexport:
+Local Variables:
+eval: (setenv "MULTIPLEX_URL" (or (getenv "MULTIPLEX_URL") "https://reveal-multiplex.glitch.me"))
+eval: (set-variable 'org-re-reveal-root (getenv "MULTIPLEX_URL"))
+eval: (set-variable 'org-re-reveal-multiplex-url (concat (getenv "MULTIPLEX_URL") "/"))
+eval: (set-variable 'org-re-reveal-multiplex-socketio-url (concat (getenv "MULTIPLEX_URL") "/socket.io/socket.io.js"))
+no-after-save-hook: (lambda nil (when (org-html-export-to-html) (progn (rename-file "napa.html" "present.html" t) (rename-file "napa_client.html" "index.html" t)) ))
+End:
+#+REVEAL_MULTIPLEX_SECRET: 16618753730926246357
+#+REVEAL_MULTIPLEX_ID: 9226ab54bb936211
+#+REVEAL_VERSION: 4
+#+NOREVEAL_DEFAULT_FRAG_STYLE: YY
+#+REVEAL_EXTRA_CSS: ./ii-style.css
+#+NOREVEAL_EXTRA_JS: YY
+#+REVEAL_HLEVEL: 2
+#+REVEAL_MARGIN: 0
+#+REVEAL_WIDTH: 5000
+#+REVEAL_HEIGHT: 800
+#+REVEAL_MAX_SCALE: 0.9
+#+REVEAL_MIN_SCALE: 0.2
+#+REVEAL_PLUGINS: (markdown notes highlight multiplex)
+#+REVEAL_SLIDE_NUMBER: ""
+#+REVEAL_PROGRESS: f
+#+REVEAL_SPEED: 5
+#+REVEAL_THEME:  black
+#+NOREVEAL_THEME: serif
+#+REVEAL_THEME_OPTIONS: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+REVEAL_TRANS: slide
+#+REVEAL_TRANS_OPTIONS: none|cube|fade|concave|convex|page|slide|zoom
+#+NOREVEAL_TITLE_SLIDE: <h1>%t</h1>
+#+NOREVEAL_TITLE_SLIDE: <h3>%s</h3>
+#+NOREVEAL_TITLE_SLIDE: <p>%a</p>
+
+#+OPTIONS: num:nil
+#+OPTIONS: toc:nil
+#+OPTIONS: mathjax:Y
+#+OPTIONS: reveal_single_file:nil
+#+OPTIONS: reveal_control:t
+#+OPTIONS: reveal_progress:nil
+#+OPTIONS: reveal_history:nil
+#+OPTIONS: reveal_center:t
+#+OPTIONS: reveal_rolling_links:nil
+#+OPTIONS: reveal_keyboard:t
+#+OPTIONS: reveal_overview:t
+#+OPTIONS: reveal_width:1200
+#+OPTIONS: reveal_height:800
+#+OPTIONS: reveal_fragmentinurl:t
+#+OPTIONS: timestamp:nil
+#+OPTIONS: reveal_title_slide:nil
+
+* Set up :noexport:
+Run reveal-multiplex locally
+#+begin_src tmate :window reveal-multiplex
+docker run -it --rm -p 1948:1948 registry.gitlab.com/ii/nz/reveal-multiplex
+#+end_src
+
+Set env for local reveal-multiplex server
+#+begin_src elisp
+(setenv "MULTIPLEX_URL" "http://localhost:1948")
+(normal-mode)
+#+end_src
+
+Link up this folder to the web
+#+begin_src tmate :window napa
+export SHARINGIO_PAIR_EXPOSER_HOSTNAME=napa APP_METRICS_ENABLED=false
+echo "Talk available at: http://$SHARINGIO_PAIR_EXPOSER_HOSTNAME.${SHARINGIO_PAIR_BASE_DNS_NAME:-127.0.0.1.sslip.io:8080}"
+go-http-server
+#+end_src
+
+Generate a token
+#+begin_src shell
+curl -s ${MULTIPLEX_URL:-reveal-multiplex.glitch.me}/token | jq .
+#+end_src
+
+#+RESULTS:
+#+begin_example
+{
+  "secret": "",
+  "socketId": ""
+}
+#+end_example
